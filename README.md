@@ -4,14 +4,26 @@ This project predicts the prices of houses based on key features such as square 
 ## Kaggle Dataset link
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
 
-# Libraries used
-- pandas
-- numpy
-- scikit-learn
-    - Linear Regression
-    - Pipeline
-- matplotlib
-- seaborn
+# Dependencies
+To run this project, you need to insatll the following Python packages:
+ - Pandas: For data manipulation and analysis
+     ```bash
+      pip install pandas 
+ - Numpy: A library for numerical computations.
+      ```bash
+      pip install numpy
+ - scikit-learn: A library for machine learning algorithms and tools.
+
+     ```bash
+      pip install scikit-learn
+ - matplotlib: A library for creating visualizations.
+
+      ```bash
+           pip install matplotlib
+ - seaborn: A librray for statistical data visualization
+
+    ```bash
+      pip install seaborn
 # Project Structure
 ## 1. Data Preprocessing:
   - Handling missing values
